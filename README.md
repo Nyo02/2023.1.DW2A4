@@ -10,7 +10,12 @@ Prof. Quirino <luiz.quirino@ifsp.edu.br>
   - Estruturação dos arquivos do projeto;
   - Rodando o primeiro container.
 
-- etapa 2 - xxx%
+- etapa 2 - 28/06/2023
+  - Criação de input
+  - criação e estilização do botão
+  - Adicão de tarefas
+  - Check visual para tarefas concluídas
+  
 - etapa 3 - xxx%
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
