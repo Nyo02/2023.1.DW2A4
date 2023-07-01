@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import "./addTask.css";
 import Button from "./button";
 
-const AddTask = ({handleTaskAddition}) => {
-
+const AddTask = ({ handleTaskAddition }) => {
   const [inputData, setInputData] = useState("");
 
   const handleInputChange = (e) => {
     setInputData(e.target.value);
   };
-  const handleAddTaskClick = ()=>{
-    handleTaskAddition(inputData);
-    setInputData("");
 
-  }
+  const handleAddTaskClick = () => {
+    if (inputData === "") {
+      //validacao campo vazio
+      alert("Favor preencher com uma tarefa");
+    } else {
+      handleTaskAddition(inputData);
+      setInputData("");
+    }
+  };
+
   return (
     <div className="add-task-container">
       <input

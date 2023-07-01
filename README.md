@@ -16,9 +16,10 @@ Prof. Quirino <luiz.quirino@ifsp.edu.br>
   - Adicão de tarefas
   - Check visual para tarefas concluídas
   
-- etapa 3 - xxx%
+- etapa 3 - 30/06/2023  
+- Encerramento da parte lógica
+- Aprimoramentos visuais
 
 ## Alterações realizadas frente ao modelo de referência apresentado:
-- alteração xyz;
-- alteração xpto;
-- ...
+- Validação campo vazio;
+- Alterações de design;

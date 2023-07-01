@@ -3,7 +3,10 @@
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 2px solid chartreuse;
+    border: 2px solid rgb(153, 0, 255);
     padding: 30px;
     border-radius: 10px;
+    background-image: url(container.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
 }
